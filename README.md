@@ -121,7 +121,7 @@ This removes all three stacks and their associated resources. The DynamoDB table
 
 ## Related resources
 
-- [Amazon DynamoDB vector search documentation](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/vector-search.html)
+- [Amazon DynamoDB vector search documentation](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/VectorSearch.html)
 - [Amazon Bedrock agents documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html)
 - [Amazon Titan Text Embeddings V2](https://docs.aws.amazon.com/bedrock/latest/userguide/titan-embedding-models.html)
 - [AWS CDK Python reference](https://docs.aws.amazon.com/cdk/api/v2/python/)
