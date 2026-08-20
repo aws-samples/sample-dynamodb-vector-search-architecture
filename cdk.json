@@ -1,0 +1,27 @@
+{
+  "app": "python3 app.py",
+  "watch": {
+    "include": [
+      "**"
+    ],
+    "exclude": [
+      "README.md",
+      "cdk*.json",
+      "requirements*.txt",
+      "source.bat",
+      "**/__pycache__",
+      "**/.pytest_cache",
+      "tests"
+    ]
+  },
+  "context": {
+    "project_prefix": "unified-agent",
+    "environment": "dev",
+    "agent_foundation_model": "amazon.nova-pro-v1:0",
+    "embedding_model_id": "amazon.titan-embed-text-v2:0",
+    "embedding_dimensions": "1024",
+    "vector_distance_function": "COSINE",
+    "vector_index_name": "content-embedding-index",
+    "table_name_suffix": "unified-agent-data"
+  }
+}

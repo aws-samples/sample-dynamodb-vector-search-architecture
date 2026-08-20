@@ -1,0 +1,31 @@
+{
+  "functions": [
+    {
+      "name": "semantic_search",
+      "description": "Search documents by meaning using natural language. Returns the most relevant documents based on semantic similarity.",
+      "parameters": {
+        "query": {
+          "type": "string",
+          "required": true,
+          "description": "Natural language search query"
+        },
+        "category": {
+          "type": "string",
+          "required": true,
+          "description": "Document category to search within (e.g., runbook, architecture, troubleshooting)"
+        }
+      }
+    },
+    {
+      "name": "get_item_details",
+      "description": "Retrieve a specific document by its unique identifier. Returns the full document content and metadata.",
+      "parameters": {
+        "entity_id": {
+          "type": "string",
+          "required": true,
+          "description": "The unique identifier of the document to retrieve"
+        }
+      }
+    }
+  ]
+}
